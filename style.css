@@ -1,0 +1,176 @@
+.title{
+margin-bottom:300px;
+top: 50%;
+  bottom: initial;       
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+}
+.carousel-heading{
+  font-family: "Permanent Marker", cursive;
+  font-weight:200px;
+  font-style: italic;
+}
+@media (max-width:768px) {
+    .carousel-heading{
+        font-size: 1.2rem;
+        top: 55%;
+        margin-top: clamp(-0.6rem, -3vw, 0rem);
+
+    }
+}
+
+.head{
+    text-align: center;
+}
+.section2{
+    margin-top:50px;
+}
+.para{
+    margin-bottom: 50px;
+}
+.carousel-heading2{
+    /* font-size: 1rem; */
+    font-size: clamp(1rem, 0.1rem, 3rem);
+    margin-top: clamp(-0.5rem, -2vw, 0rem);
+
+    line-height: 0.8rem;
+
+}
+@media (max-width:768px) {
+    .carousel-heading2{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.section3{
+    margin-top: 100px;
+    padding-left: 80px;
+}
+
+.section4{
+    background-color: beige;
+    padding-top: 50px;
+}
+.sym{
+    font-weight: bold;
+}
+.section6{
+    background-image: url(assests/images/bgimgpromyc.jpg);
+}
+.baa{
+    padding-top:50px;
+}
+.section7{
+    background-color: beige;
+    padding-top: 50px;
+}
+.main{
+    object-fit: cover;
+    height:250px;
+    width:250px;
+    
+}
+.loo-laa{
+    margin-top:50px;
+    font-family: cursive;
+    font-family: "Permanent Marker";
+}
+.end{
+    margin-top:20px;
+}
+ 
+.footer {
+    background-color: #000000;
+}
+
+
+.navbar-toggler-icon{
+    background-color:rgb(183, 180, 180);
+    border-radius: 2px;
+}
+.navbar{
+    /* background-color:rgba(0, 0, 0, 0.47); */
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.77),rgba(128, 128, 128, 0));
+}
+.container,.container-fliud{
+    overflow: hidden;
+}
+.pic{
+    width: auto;
+    height: 200px;
+    object-fit: contain;
+}
+.card1{
+    width: auto;
+}
+
+.footer-img{
+    width: 150px;
+    height: 150px;
+}
+nav{
+    overflow: hidden;
+}
+.button-1{
+    background: transparent;
+    color: white;
+    border-color: white;
+    margin-left: 10px;
+}
+.text-1{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+@media (max-width:991px) {
+     .nav-item{
+        background-color: black;
+        padding-left: 20px;
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 600px) {
+  .paragraph,p {
+    font-size: 0.9rem; 
+    line-height: 1.4;   
+    padding: 0 1rem;     
+  }
+}
+.mainlogo{
+    height: 50px;
+    width: 50px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height:5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:green; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:orange; 
+}
+
+
+
+
+
+
+
